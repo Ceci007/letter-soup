@@ -1,0 +1,32 @@
+@import "../variables";
+
+.char-box {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--color-grey-light-1);
+  padding: 1rem;
+  margin: 1rem auto;
+  box-shadow: var(--shadow-dark);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  &__text {
+    color: var(--color-grey-dark-1);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: -0.7rem;
+  }
+}
+
+.paragraph {
+  &--light {
+    color: var(--color-grey-light-1);
+  }
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding: 0 1.1rem;
+  position: relative;
+}

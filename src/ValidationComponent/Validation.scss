@@ -1,0 +1,12 @@
+@import "../variables";
+
+.paragraph {
+  color: var(--color-grey-light-1);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding: 0 1.1rem;
+}
